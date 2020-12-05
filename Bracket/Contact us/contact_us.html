@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel = "stylesheet"type = "text/css"href = "Cont_sh.css" >
+</head>
+<body>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div id="map" style="width:100%;height:500px"></div>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="none">select</option>
+      <option value="afghanistan">Afghanistan</option>
+      <option value="albania">Albania</option>
+      <option value="algeria">Algeria</option>
+      <option value="andorra">Andorra</option>
+      <option value="angola">Angola</option>
+      <option value="antigua and barbuda">Antigua and Barbuda</option>
+      <option value="argentina">Argentina</option>
+      <option value="armenia">Armenia</option>
+      <option value="aruba">Aruba</option>
+      <option value="australia">Australia</option>
+      <option value="austria">Austria</option>
+      <option value="azebaijan">Azerbaijan</option>
+      <option value="bahamas">Bahamas</option>
+      <option value="bahrain">Bahrain</option>
+      <option value="bangladesh">Bangladesh</option>
+      <option value="barbados">Barbados</option>
+      <option value="belarus">Belarus</option>
+      <option value="belgium">Belgium</option>
+      <option value="belize">Belize</option>
+      <option value="benin">Benin</option>
+      <option value="bhutan">Bhutan</option>
+      <option value="bolivia">Bolivia</option>
+      <option value="bosnia and herzegovina">Bosnia and Herzegovina</option>
+      <option value="botswana">Botswana</option>
+      <option value="brazil">Brazil</option>
+      <option value="brunei">Brunei</option>
+      <option value="bulgaria">Bulgaria</option>
+      <option value="burkina faso">Burkina Faso</option>
+      <option value="burma">Burma</option>
+      <option value="burundi">Burundi</option>
+      <option value="cambodia">Cambodia</option>
+      <option value="cameroon">Cameroon</option>
+      <option value="canada">Canada</option>
+      <option value="cabo verde">Cabo Verde</option>
+      <option value="central african republic">Central African Republic</option>
+      <option value="chad">Chad</option>
+      <option value="chile">Chile</option>
+      <option value="china">China</option>
+      <option value="colombia">Colombia</option>
+      <option value="comoros">Comoros</option>
+      <option value="congo">Congo</option>
+      <option value="costa rica">Costa Rica</option>
+      <option value="cote d'Ivoire">Cote d'Ivoire</option>
+      <option value="croatia">Croatia</option>
+      <option value="cuba">Cuba</option>
+      <option value="caracao">Caracao</option>
+      <option value="cyprus">Cyprus</option>
+      <option value="czechia">Czechia</option>
+      <option value="denmark">Denmark</option>
+      <option value="dijbouti">Dijbouti</option>
+      <option value="india">India</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+</body>
+</html>
